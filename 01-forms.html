@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+  table, th, td {
+    border: 1px solid black;
+  }
+  </style>
+  
+</head>
+<body>
+  
+  <header>
+    <h1>Formularios</h1>
+  </header>
+  <h2>Registro de Usuarios</h2>
+  <main>
+    <section>
+      <form action="">
+        <label for="">Nombres</label>
+        <input  value="Amaru" type="text" placeholder="Ingresa tus nombres completos" required readonly>
+        <br>
+        <label for="">Apellidos</label>
+        <input type="text" placeholder="Ingresa tus apellidos" required>
+        <br>
+        <label for="">Correo</label>
+        <input type="email" placeholder="Ingresa un correo valido">
+        <br>
+        <label for="">Contraseña</label>
+        <input type="password" placeholder="Ingresa un correo valido" required>
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpiar</button>
+      </form>
+    </section>
+    <br>
+    <section>
+      <table>
+        <thead>
+          <tr>
+              <th rowspan="2">Tabla Avanzada</th>
+              <th colspan="2">Cabecera Multiples Columnas</th>
+          </tr>
+          <tr>
+            <th>Primera Col. Cab.</th>
+            <th>Segunda Col. Cab.</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Fila 1</td>
+            <td>Fila 1 Columna 1</td>
+            <td>Fila 1 Columna 2</td>
+          </tr>
+          <tr>
+            <td>Fila 2</td>
+            <td>Fila 2 Columna 2</td>
+            <td>Fila 2 Columna 1</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <td colspan="3">Tablas</td>
+        </tfoot>
+      </table>
+    </section>
+  </main>
+
+
+</body>
+</html>

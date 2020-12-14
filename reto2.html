@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="reto2.css">
 </head>
 <body>
   <nav>
@@ -18,21 +19,32 @@
     </li>
   </nav>
   <main style="text-align: center;">
-
-    <h1>Reto 2</h1>
-  
-      <div class="option2">
-        <form action="">
-          <label for="username">
-            <input type="text" placeholder="Username" required>
+    <div class="container">
+      <h1>Reto 2</h1>
+        <div class="form-container">
+          <form action="#">
+            
+            <label for="lastname">Lastname<span style="color: red;">*</span><br> 
+            </label>
+              <input type="text" required>
             <br>
-            <input type="password" placeholder="Password" required>
-          </label>
-          <br>
-          <button type="submit">Log in</button>
-        </form>
-      </div>
+            
+            <label for="firstname">Firstname<span style="color: red;">*</span><br></label>
+            <input name="firstname" type="text"> 
+            <br>
+            <label for="email">Email<span style="color: red;">*</span><br></label>
+            <input name="email" type="email" required>
+            <br>
 
+            <label for="company">Company <span style="color: red;">*</span><br></label>
+            <input name="company" type="text">
+            <div class="button-div">
+              <button type="submit">Send</button>
+            </div>
+          </form>
+
+        </div>
+      </div>
   </main>
 
 

@@ -4,20 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Retos</title>
-  <style>
-    input:focus{
-      outline: none;
-    }
-
-    input:valid:focus{
-      border: 1px solid green;
-    }
-
-    input:invalid:focus{
-      border: 1px solid red;
-    }
-
-  </style>
+  <link rel="stylesheet" href="main.css">
 </head>
 <body>
   <nav>
@@ -31,61 +18,20 @@
       <a href="reto3.html">Reto 3</a>
     </li>
   </nav>
-  
-  <div class="container">
-    <table>
-      <thead>
-        <th>Opcion 1 </th>
-        <th>Opcion 2 </th>
-        <th>Opcion 3 </th>
-      </thead>
-      <tbody>
-        <tr>
-          <td>
-            <div class="option1">
-              <form action="">
-                <label for="username">
-                  <input type="text" placeholder="Username" required>
-                  <br>
-                  <input type="password" placeholder="Password" required>
-                </label>
-                <br>
-                <button type="submit">Log in</button>
-              </form>
-            </div>
-          </td>
-
-          <td>
-            <div class="option1">
-              <form action="">
-                <label for="username">
-                  <input type="text" placeholder="Username" required>
-                  <br>
-                  <input type="password" placeholder="Password" required>
-                </label>
-                <br>
-                <button type="submit">Log in</button>
-              </form>
-            </div>
-          </td>
-
-          <td>
-            <div class="option1">
-              <form action="">
-                <label for="username">
-                  <input type="text" placeholder="Username" required>
-                  <br>
-                  <input type="password" placeholder="Password" required>
-                </label>
-                <br>
-                <button type="submit">Log in</button>
-              </form>
-            </div>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+  <main style="text-align: center;">
+    <div class="container">
+          <h1>Reto 1 </h1>
+          <form action="#">
+            <label for="username">
+              <input type="text" placeholder="Username" required>
+              <br>
+              <input type="password" placeholder="Password" required>
+            </label>
+            <br>
+            <button type="submit">Log in</button>
+          </form>
+    </div>
+  </main>
 
 </body>
 </html>

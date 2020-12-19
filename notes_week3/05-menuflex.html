@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      /* propiedad temporal */
+      /* border: 1px solid red; */
+    }
+
+    body{
+      background: #37517E;
+    }
+
+    .container{
+      width: 1200px;
+      /* margen automatico y centra el contenedor */
+      margin:0 auto;
+    }
+
+    .logo{
+      font-family: 'Roboto Condensed', sans-serif;
+      font-size: 40px;
+    }
+    
+    ul{
+      display: flex;
+      justify-content: space-around;
+      width: 500px;
+    }
+
+    li{
+      list-style-type: none;
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 10px;
+    }
+
+    li:hover{
+      color: #46ACDF;
+      cursor: pointer;      
+    }
+
+    ul>li:first-child{
+      color: #46ACDF;
+    }
+
+    ul>li:last-child{
+      border:2px solid #46ACDF;
+      border-radius: 20px;
+    }
+
+    nav{
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 0;
+      color: white;
+    }
+
+
+  </style>
+
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <div class="logo">
+        ARSHA
+      </div>
+      <div class="menu">
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Services</li>
+          <!-- <li>Portfolio</li>
+          <li>Team</li>
+          <li>Drop Down</li> -->
+          <li>Contact</li>
+          <li>Get Started</li>
+        </ul>
+      </div>
+
+    </nav>
+  </div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+/* .container{
+  border: 5px solid #f8db36;
+  display: flex;
+  justify-content: space-evenly;
+} */
+
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+ul{
+  display: flex;
+}
+
+li{
+  list-style-type: none;
+  margin: 10px;
+  
+}

@@ -1,0 +1,21 @@
+nav{
+  background: pink;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+
+ul{
+  display: flex;
+}
+
+@media screen and (max-width:420px){
+  nav{
+    background: blue;
+  }
+}
+
+li{
+  list-style-type: none;
+}

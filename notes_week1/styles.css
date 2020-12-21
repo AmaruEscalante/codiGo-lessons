@@ -1,0 +1,36 @@
+li{
+  padding: 15px;
+  color: black;
+}
+
+nav{
+  background-color: blue;
+  color: white;
+}
+
+img{
+  display: block;
+  width: 100vw;
+  max-width: 100%;
+  height: auto;
+}
+
+header.masthead{
+  margin-bottom: 50px;
+  background: no-repeat center center;
+  background-color: white;
+  background-attachment: scroll;
+  position: relative;
+  background-size: cover;
+}
+
+
+header.masthead .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #212529;
+  opacity: 0.5;
+}

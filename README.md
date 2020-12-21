@@ -1,1 +1,1 @@
-# codiGo-lessons
+# codiGo-week2

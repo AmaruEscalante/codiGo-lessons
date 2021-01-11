@@ -19,3 +19,40 @@ ul{
 li{
   list-style-type: none;
 }
+
+/* other media queries */
+@media (min-height:400px){
+  header{
+    background: yellow;
+  }
+}
+
+@media (max-height: 400px){
+  header{
+    background: orange;
+  }
+}
+
+@media (orientation: portrait){
+  header{
+    background: violet;
+  }
+}
+
+@media (orientation:landscape){
+  header{
+    background: black;
+  }
+}
+
+img{
+  height: 300px;
+  object-fit: contain;
+}
+
+@media (max-width:800px){
+  img{
+    max-width: 600px;
+    width: 100%;
+  }
+}

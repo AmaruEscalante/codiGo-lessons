@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<!-- Sombras y Bordes redondeados -->
+<style>
+    div.border{
+        height:100px;
+        width: 100px;
+        background: linear-gradient(to left, blue 60%, yellow, pink);
+        /* border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px; */
+        border-radius: 50px 30px 10px 50px;
+        transition-duration: 500ms;
+        transition-property: box-shadow;
+        margin: 50px;
+    }
+
+    .border:hover{
+        box-shadow: 5px 5px 10px black, -10px -10px 10px pink;
+        cursor: pointer;
+    }
+</style>
+
+<div class="border">
+    hola
+</div>
+
+<h1 style="text-shadow: 10px 10px blue"
+>GHola Camaron</h1>
+
+
+    
+</body>
+</html>

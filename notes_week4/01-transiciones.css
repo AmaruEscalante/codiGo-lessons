@@ -1,0 +1,44 @@
+.cuadrado{
+    width: 200px;
+    height: 200px;
+    background: aquamarine;
+    border: 2px solid slateblue;
+    border-radius: 10px;
+
+    transition-duration: 1000ms;
+    transition-delay: 10ms;
+    transition-property: width, height, background;
+}
+
+.cuadrado:hover{
+    width: 400px;
+    height: 400px;
+    background: red;
+}
+
+.btn{
+    border: 1px solid gray;
+    height: 100px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    background: linear-gradient(90.01deg, #FF914D -5.24%, #F2620A 99.99%, #FF6100 99.99%);
+    color: white;
+    font-family: Poppins, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.btn:focus {
+    outline: orange auto 5px; 
+}
+
+.btn:hover{
+    cursor: pointer;
+    background: linear-gradient(90.01deg, #ffa973 -5.24%, #ff9757 99.99%, #FF6100 50%);
+}
+
+.btn:visited{
+    background: black;
+}

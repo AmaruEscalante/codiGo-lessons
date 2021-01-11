@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=2000px, height=1000px, initial-scale=20, user-scalable=no">
+    <title>Posicionamiento y RWD</title>
+    <style>
+        .primera{
+            width: 100px;
+            height: 200px;
+            background: red;
+            position: relative;
+        }
+
+        .segunda{
+            width: 50px;
+            height: 150px;
+            background: green;
+            position: absolute;
+            bottom: 0
+        }
+
+        ul{
+            list-style: none;
+            display: inline-flex;
+            background: yellow;
+            flex-direction: row-reverse;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="primera">HOLA
+        <div class="segunda">
+            
+        </div>
+
+    </div>
+
+    <!-- flexbox -->
+    <div>
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+        </ul>
+    </div>
+
+    <!-- flexwrap -->
+
+    <style>
+        div.box{
+            width: 400px;
+            display: inline-flex;
+            /* flex-wrap: wrap-reverse; */
+        }
+
+        .box div{
+            width: 50px;
+            background: red;
+        }
+
+        .box div:first-child{
+            flex-grow: 1;
+        }
+
+        .box div:nth-child(even){
+            background: yellow;
+        }
+
+    </style>
+
+    <div class="box">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+
+    <!-- flex alignment -->
+    <!-- flex justify content alinea elementos en main axis -->
+
+    <!-- flex align content alinea elementos en cross axis -->
+    <!-- flex align ITEMS alinea los items en el eje -->
+    <!-- flex align SELF -->
+</body>
+</html>

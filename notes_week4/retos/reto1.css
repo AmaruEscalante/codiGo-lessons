@@ -1,0 +1,56 @@
+body{
+    background: linear-gradient(to right, rgb(31, 0, 31) , rgb(99, 5, 99));
+    font-size: 25px;
+    color: white;
+}
+
+.container{
+    width: 1200px;
+     /* margen automatico y centra el contenedor */
+    margin:0 auto;
+}
+
+div.grid-container{
+    margin: 50px;
+    margin-top: 100px;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(100px,250px));
+    grid-template-rows: repeat(3, minmax(100px,250px));
+    grid-gap: 10px;
+}
+
+div.grid-element{
+    border-radius: 30px;
+}
+
+#green{
+    background: rgb(69, 194, 132);
+    grid-area: 1 / 1 / 3/ 3;
+
+}
+
+#pink{
+    background: rgb(250, 127, 174);
+    grid-area: 3 / 1/ 4/ 3;
+}
+
+#blue{
+    background: lightblue;
+    grid-area: 1 / 3 / 2 / 6;
+}
+
+#vermilion{
+    background: rgba(231, 116, 87, 0.849);
+    grid-area: 2/ 3/ 4/ 5;
+}
+
+#darkblue{
+    background: rgb(47, 57, 114);
+    grid-area: 2 / -1 /3 / -2;
+}
+
+#brown{
+    background: rgb(150, 110, 84);
+    grid-area: 3 / 5 / 4 / 6;
+}

@@ -1,0 +1,65 @@
+a{
+    text-decoration: none;
+}
+
+[href] {
+    color: red;
+}
+
+[href="https://facebook.com"]{
+    color: blue;
+}
+/* PSEUDO CLASES */
+ul li:first-child{
+    color: brown;
+}
+
+ul li:last-child{
+    color: blue;
+}
+
+ul li:nth-child(even){
+    color: orange;
+}
+
+ul li:nth-child(3n+1){
+    background-color: orange;
+}
+
+ul li:nth-child(even):hover{
+    color:aquamarine;
+}
+
+/* PSEUDO ELEMENTOS */
+
+div{
+    background: orange;
+}
+
+div p::first-letter{
+    font-size: 100px;
+    font-family: Verdana;
+}
+
+div p::first-line{
+    color: blue;
+}
+
+div p::before{
+    content: "UN CONTENIDO antes";
+}
+
+div p::after{
+    content: "UN CONTENIDO DESPUES";
+}
+
+div *::selection{
+    background: orange;
+}
+
+/* Combinaciones */
+
+div > li{
+    color:white;
+    background: none;
+}

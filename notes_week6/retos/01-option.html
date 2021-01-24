@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opcion 1</title>
+
+    <style>
+        #input{
+         background: black;   
+         color: white;
+         border-radius: 10px;
+         height: 100px;
+         width: 500px;
+         font-size: 50px;
+         padding-left: 20px;
+        }
+
+        button{
+            background: green;
+            color: white;
+            font-weight: bold;
+            border: none;
+            border-radius: 10px;
+            height: 50px;
+            width: 200px;
+        }
+
+        button:hover{
+            background: grey;
+        }
+
+        div{
+            height: 100vh;
+        }
+
+        .center{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 1ch;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="center">
+        <input id="input" type="text" placeholder="Ingresa un valor">
+        <button id="button" >Añade un elemento</button>
+    </div>
+
+    <script src="01-option.js"></script>
+</body>
+</html>

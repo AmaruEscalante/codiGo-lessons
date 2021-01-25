@@ -3,6 +3,7 @@ let btn = document.querySelector("#btn");
 let list = document.getElementById("list");
 let check = document.getElementsByClassName("check");
 
+let tasks = [];
 
 btn.addEventListener('click', ()=>{
     let task = text.value;
@@ -12,6 +13,7 @@ btn.addEventListener('click', ()=>{
         let li = document.createElement("li")
         li.innerHTML = `${task}<input class="check" type=checkbox>`;
         list.insertBefore(li, list.childNodes[0]);
+        tasks.push(task)
     }
 })
 

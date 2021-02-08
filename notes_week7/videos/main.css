@@ -1,0 +1,33 @@
+/* OOCSS example of a button */
+/* Parent class */
+.button {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: grey;
+  border: 1px solid grey;
+  cursor: pointer; }
+
+.button-primary {
+  border-color: green;
+  background-color: green;
+  color: white; }
+
+.button-secondary {
+  border-color: blueviolet;
+  background-color: blueviolet;
+  color: white; }
+
+.input {
+  border: 1px solid grey;
+  padding: 10px;
+  font-size: 12px; }
+  .input:focus {
+    outline: none;
+    box-shadow: 0 0 10px grey; }
+
+.input-primary {
+  border-color: green; }
+
+.input-secondary {
+  border-color: blue; }

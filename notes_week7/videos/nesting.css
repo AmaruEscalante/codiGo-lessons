@@ -27,10 +27,62 @@ body {
   background-image: url("https://unapagina.com/imagen.jpg");
   padding: 20;
   border-radius: 10px;
-  height: 50px; }
+  height: 50px;
+  font-size: 13px; }
 
 h1 {
   color: red; }
 
 h2 {
   color: green; }
+
+.size-11px {
+  font-size: 11px; }
+
+.size-12px {
+  font-size: 12px; }
+
+.size-13px {
+  font-size: 13px; }
+
+.size-14px {
+  font-size: 14px; }
+
+.color-primary {
+  color: red; }
+
+.color-secondary {
+  color: blue; }
+
+.color-complementary {
+  color: green; }
+
+.font-size-1 {
+  font-size: 1px; }
+
+.font-size-2 {
+  font-size: 2px; }
+
+.font-size-3 {
+  font-size: 3px; }
+
+.font-size-4 {
+  font-size: 4px; }
+
+.font-size-5 {
+  font-size: 5px; }
+
+.font-size-6 {
+  font-size: 6px; }
+
+.font-size-7 {
+  font-size: 7px; }
+
+.font-size-8 {
+  font-size: 8px; }
+
+.font-size-9 {
+  font-size: 9px; }
+
+.font-size-10 {
+  font-size: 10px; }

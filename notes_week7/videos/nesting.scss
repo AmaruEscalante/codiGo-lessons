@@ -60,7 +60,7 @@ body{
     padding: 10+10;
     @include border-radius(10px);
     height: percentage(50, 100)#{px};
-    @include font-size(xmedium);
+    @include font-size(medium);
 }
 
 h1{
@@ -71,5 +71,39 @@ h2{
     @include colors(secondary);
 }
 
-// flow control with conditionales
+// Data structures
 
+// Lists
+$font-sizes: 11px, 12px, 13px, 14px;
+
+@each $size in $font-sizes {
+    .size-#{$size}{
+        font-size: $size;
+    }
+}
+
+// Maps
+$colors: (
+    "primary": red,
+    "secondary": blue,
+    "complementary": green
+);
+
+@each $key, $value in $colors {
+    .color-#{$key}{
+        color: $value;
+    }
+};
+
+@for $i from 1 through 10 {
+    .font-size-#{$i}{
+        font-size: $i#{px};
+    }
+};
+
+$more-colors: (
+    "other": yellow
+);
+
+@debug map-merge($colors, $more-colors);
+@debug map-has-key($colors, secondary);

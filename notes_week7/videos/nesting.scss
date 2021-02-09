@@ -1,0 +1,75 @@
+@import './nav';
+@import './button';
+
+
+%border{
+    border: 1px solid green;
+    padding: 10px;
+
+    &:focus{
+        outline: none;
+    }
+}
+
+input{
+    @extend %border;
+}
+
+textarea{
+    @extend %border;
+}
+
+// how to add operator and interpolation
+$url: 'https://unapagina.com';
+
+// mixins, definen reglas css configurables
+@mixin border-radius($property){
+    border-radius: $property;
+}
+
+// functions, definen logica que retornan valores
+@function percentage($percent, $total){
+    @return $percent * $total/100;
+}
+
+@mixin font-size($value){
+    @if($value == small){
+        font-size: 11px;
+    }@else if($value == medium){
+        font-size: 13px;
+    }@else if($value == large){
+        font-size: 15px;
+    }@else{
+        // @error "no valid value" $value;
+        @warn "no valid value" $value;
+    }
+}
+
+@mixin colors($value){
+    @if($value == primary){
+        color: red;
+    }
+
+    @if($value == secondary){
+        color: green;
+    }
+}
+
+body{
+    background-image: url('#{$url}/imagen.jpg');
+    padding: 10+10;
+    @include border-radius(10px);
+    height: percentage(50, 100)#{px};
+    @include font-size(xmedium);
+}
+
+h1{
+    @include colors(primary);
+}
+
+h2{
+    @include colors(secondary);
+}
+
+// flow control with conditionales
+

@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "npx node-sass -w videos/main.scss videos/main.css"    
+    "sass1": "npx node-sass -w videos/main.scss videos/main.css",
+    "sass2": "npx node-sass -w videos/nesting.scss videos/nesting.css"
   },
   "author": "",
   "license": "ISC",

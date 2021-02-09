@@ -1,42 +1,65 @@
 /* OOCSS example of a button */
-        /* Parent class */
-        .button{
-            display: inline-block;
-            padding: 10px;
-            border-radius: 4px;
-            background-color: grey;
-            border: 1px solid grey;
-            cursor: pointer;
-        }
+/* Parent class */
+$font-default: arial;
+$font-title: verdana;
 
-        .button-primary {
-            border-color: green;
-            background-color: green;
-            color: white;
-        }
+$font-size-default: 50px;
 
-        .button-secondary {
-            border-color: blueviolet;
-            background-color: blueviolet;
-            color: white;
-        }
+$color-primary: blue;
+$color-secondary: red;
 
-        .input{
-            border: 1px solid grey;
-            padding: 10px;
-            font-size: 12px;
 
-            &:focus{
-               outline: none; 
-               box-shadow: 0 0 10px grey;
-            }
+body{
+    font-family: $font-default;
+    font-size: $font-size-default;
+    color: $color-primary;
+}
 
-        }
+h1,
+h2,
+h3{
+    font-family: $font-title;
+    color: $color-secondary;
+}
 
-        .input-primary{
-            border-color: green;
-        }
+.button{
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: grey;
+    border: 1px solid grey;
+    cursor: pointer;
+}
 
-        .input-secondary{
-            border-color: blue;
-        }
+.button-primary {
+    border-color: green;
+    background-color: green;
+    color: white;
+}
+
+.button-secondary {
+    border-color: blueviolet;
+    background-color: blueviolet;
+    color: white;
+}
+
+.input{
+    border: 1px solid rgb(211, 211, 211);
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 5px;
+
+    &:focus{
+        outline: none; 
+        box-shadow: 0 0 10px grey;
+    }
+
+}
+
+.input-primary{
+    border-color: green;
+}
+
+.input-secondary{
+    border-color: blue;
+}

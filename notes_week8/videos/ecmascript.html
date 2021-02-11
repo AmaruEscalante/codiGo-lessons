@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // arrow functions
+        const val = (a,b) => a + b;
+        const suma = () =>{
+            a = 3;
+            b = 6;
+            console.log(this) // has a reference to the parent not the function itself
+            console.log('arrow function')
+            return a + b;
+        };
+        
+        function sumas (a=3, b=2){
+            return a+b;
+        }
+        // console.log(suma());
+        function sumax(...rest){
+            console.log('rest', rest)
+            for (let index = 0; index < rest.length; index++){
+                console.log(rest[index])	
+            }
+        }
+
+        sumax(1,2,3,4);
+    </script>
+</body>
+</html>

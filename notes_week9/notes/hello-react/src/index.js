@@ -1,17 +1,60 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+
+function Header(){
+  return <header className="header">Header</header>;
+}
+
+function Main(props){
+  // console.log('props', props);
+  const {
+    children
+  } = props;
+  return <main className="main">{children}</main>;
+}
+
+function Card(props){
+  const{
+    name,
+    lastname,
+    title,
+    description,
+  } = props;
+
+  return (
+    <article>
+      <ul>
+        <li>Full Name: {name} {lastname}</li>
+        <li>Titulo: {title}</li>
+        <li>Descripcion: {description}</li>
+      </ul>
+    </article>
+  )
+}
+
+function Footer(){
+  return <footer className="footer">footer</footer>;
+}
+
+// My app
+
+function App(){
+  return (
+    <div>
+      <Header/>
+      <Main>
+        <Card name="Amaru" lastname="Escalante" title="Electrical Engineer" description="Best DoTO"/>
+      </Main>
+      <Footer/>
+    </div>
+  )
+}
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+  <div>
+    {App()}
+  </div>
+  , document.getElementById('root'));
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// ReactDOM.render(<h1>Hola Mundo</h1>, document.getElementById("root"))

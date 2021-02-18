@@ -1,16 +1,17 @@
 {
-  "name": "notes_week7",
-  "version": "1.0.0",
-  "description": "packages for this week",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "sass1": "npx node-sass -w videos/main.scss videos/main.css",
-    "sass2": "npx node-sass -w videos/nesting.scss videos/nesting.css"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "node-sass": "^5.0.0"
+    "name": "notes_week7",
+    "version": "1.0.0",
+    "description": "packages for this week",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "sass1": "npx node-sass -w videos/main.scss videos/main.css",
+      "sass2": "npx node-sass -w videos/nesting.scss videos/nesting.css",
+      "sass3": "npx node-sass -w videos/nesting.scss videos/nesting.css"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "node-sass": "^5.0.0"
+    }
   }
-}

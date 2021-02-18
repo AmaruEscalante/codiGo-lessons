@@ -68,3 +68,10 @@
 .circle-image{
     border-radius: 100%;
 }
+
+.footer-section{
+    background: black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: white;
+}

@@ -5,15 +5,20 @@
 }
 
 .page-header{
+    position: relative;
+    overflow: hidden;
     font-size: 1.25rem;
     color: #fff;
     padding-top: calc(7rem + 72px);
     padding-bottom: 7rem;
+    background: #ff6a00;
+    background: linear-gradient(0deg,#ff6a00 0,#ee0979 100%);
 }
 
 .header-content{
     z-index: 1;
     position: relative;
+    overflow: hidden;
 }
 
 .gradient{
@@ -27,7 +32,6 @@
 	background-color: rgb(255, 166, 0);
 	background-image: linear-gradient(140deg,#ff6a00 0,#ee0979 100%);
 	background-repeat: no-repeat, no-repeat;
-	
 	position:absolute;
 }
 
@@ -39,6 +43,8 @@
 }
 
 .circle-2{
+    overflow: hidden;
+
     height: 50rem;
     width: 50rem;
     top: -25rem;
@@ -48,7 +54,7 @@
 .circle-3{
     height: 20rem;
     width: 20rem;
-    bottom: 5rem;
+    bottom: -10rem;
     right: 5%;
 }
 
@@ -57,4 +63,8 @@
     width: 30rem;
     top: -5rem;
     right: 35%;
+}
+
+.circle-image{
+    border-radius: 100%;
 }

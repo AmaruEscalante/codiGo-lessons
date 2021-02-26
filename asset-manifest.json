@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/codiGo-lessons/notes_week9/retos/reto1/static/css/main.5e70b0bf.chunk.css",
-    "main.js": "/codiGo-lessons/notes_week9/retos/reto1/static/js/main.d014f177.chunk.js",
-    "main.js.map": "/codiGo-lessons/notes_week9/retos/reto1/static/js/main.d014f177.chunk.js.map",
-    "runtime-main.js": "/codiGo-lessons/notes_week9/retos/reto1/static/js/runtime-main.8cb53491.js",
-    "runtime-main.js.map": "/codiGo-lessons/notes_week9/retos/reto1/static/js/runtime-main.8cb53491.js.map",
-    "static/js/2.65c5f4f4.chunk.js": "/codiGo-lessons/notes_week9/retos/reto1/static/js/2.65c5f4f4.chunk.js",
-    "static/js/2.65c5f4f4.chunk.js.map": "/codiGo-lessons/notes_week9/retos/reto1/static/js/2.65c5f4f4.chunk.js.map",
-    "static/js/3.7319e9ec.chunk.js": "/codiGo-lessons/notes_week9/retos/reto1/static/js/3.7319e9ec.chunk.js",
-    "static/js/3.7319e9ec.chunk.js.map": "/codiGo-lessons/notes_week9/retos/reto1/static/js/3.7319e9ec.chunk.js.map",
-    "index.html": "/codiGo-lessons/notes_week9/retos/reto1/index.html",
-    "static/css/main.5e70b0bf.chunk.css.map": "/codiGo-lessons/notes_week9/retos/reto1/static/css/main.5e70b0bf.chunk.css.map",
-    "static/js/2.65c5f4f4.chunk.js.LICENSE.txt": "/codiGo-lessons/notes_week9/retos/reto1/static/js/2.65c5f4f4.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/codiGo-lessons/notes_week9/retos/reto1/static/media/logo.6ce24c58.svg"
+    "main.css": "/codiGo-lessons/static/css/main.5e70b0bf.chunk.css",
+    "main.js": "/codiGo-lessons/static/js/main.d014f177.chunk.js",
+    "main.js.map": "/codiGo-lessons/static/js/main.d014f177.chunk.js.map",
+    "runtime-main.js": "/codiGo-lessons/static/js/runtime-main.c11faf02.js",
+    "runtime-main.js.map": "/codiGo-lessons/static/js/runtime-main.c11faf02.js.map",
+    "static/js/2.65c5f4f4.chunk.js": "/codiGo-lessons/static/js/2.65c5f4f4.chunk.js",
+    "static/js/2.65c5f4f4.chunk.js.map": "/codiGo-lessons/static/js/2.65c5f4f4.chunk.js.map",
+    "static/js/3.7319e9ec.chunk.js": "/codiGo-lessons/static/js/3.7319e9ec.chunk.js",
+    "static/js/3.7319e9ec.chunk.js.map": "/codiGo-lessons/static/js/3.7319e9ec.chunk.js.map",
+    "index.html": "/codiGo-lessons/index.html",
+    "static/css/main.5e70b0bf.chunk.css.map": "/codiGo-lessons/static/css/main.5e70b0bf.chunk.css.map",
+    "static/js/2.65c5f4f4.chunk.js.LICENSE.txt": "/codiGo-lessons/static/js/2.65c5f4f4.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/codiGo-lessons/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8cb53491.js",
+    "static/js/runtime-main.c11faf02.js",
     "static/js/2.65c5f4f4.chunk.js",
     "static/css/main.5e70b0bf.chunk.css",
     "static/js/main.d014f177.chunk.js"

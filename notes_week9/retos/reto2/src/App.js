@@ -1,15 +1,14 @@
 import logo from './logo.svg';
-import { Header, Sidenav, Main, Footer } from './components';
 import './App.css';
+import Flower from './component/Flower';
+import FlowerList from './component/FlowerList';
 
 function App() {
   return (
-      <div className="App">
-        <Header/>
-        {/*<Sidenav/>*/}
-        <Main/>
-        <Footer/>
-      </div>
+    <div className="App">
+      <FlowerList/>
+    </div>
   );
 }
+
 export default App;

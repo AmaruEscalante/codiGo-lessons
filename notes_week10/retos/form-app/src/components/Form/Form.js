@@ -1,8 +1,8 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './Form.css'
 
 function Form (){
-
+    
     const [formState, setFormState] = useState({
         form : {
             firstName: '',
@@ -14,9 +14,10 @@ function Form (){
             country: '',
             state: '',
             zip: ''
-        }        
+        },
+        save_for_later: 'false',
     })
-
+    
     const handleChange = e => {
         const { name, value } = e.target;
         setFormState( prevState => ({
@@ -24,13 +25,34 @@ function Form (){
             form: {
                 ...prevState.form,
                 [name]: value
-            }
+            },
+            save_for_later: false
         }));
     }
-    
 
+    const handleSubmit = e => {
+        e.preventDefault();
+        setFormState( prevState => ({
+            ...prevState,
+            save_for_later: true
+        }))
+    }
+    
+    useEffect(() => {
+        let form = localStorage.getItem('form');
+        if(form) {
+            setFormState(
+                {form: JSON.parse(form)}
+            )
+        }
+    }, []);
+
+    useEffect(() => {
+        localStorage.setItem('form', JSON.stringify(formState.form));
+    }, [formState.save_for_later]);
+    
     return (
-        <form className="custom-form row g-3 p-3">
+        <form onSubmit={handleSubmit} className="custom-form row g-3 p-3">
             <h1>Billing Address</h1>
         <div className="col-md-6">
             <label for="inputFirstName" className="form-label">First name</label>

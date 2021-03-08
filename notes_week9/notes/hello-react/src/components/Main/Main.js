@@ -1,6 +1,6 @@
+import './Main.css';
 
-
-export default function Main(props){
+function Main(props){
     // console.log('props', props);
     const {
       children
@@ -9,4 +9,4 @@ export default function Main(props){
 };
 
 
-// export default Main;
+export { Main };

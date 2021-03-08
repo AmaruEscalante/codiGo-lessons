@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './App';
+import App from './App';
 // import reportWebVitals from './reportWebVitals';
 
-// ReactDOM.render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>,
-//   document.getElementById('root')
-// );
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
 
 // // If you want to start measuring performance in your app, pass a function
 // // to log results (for example: reportWebVitals(console.log))
@@ -18,17 +18,17 @@ import './index.css';
 
 // My app
 
-function tick(){
-  const element = (
-    <div>
-      <h1></h1>
-      <h2>It is {new Date().toLocaleTimeString()}.</h2>
-      
-    </div>
-  );
-  ReactDOM.render(element, document.getElementById('root'));
-}
+// function tick(){
+//   const element = (
+//     <div>
+//       {/* <h1></h1>
+//       <h2>It is {new Date().toLocaleTimeString()}.</h2> */}
+//       <App/>
+//     </div>
+//   );
+//   ReactDOM.render(element, document.getElementById('root'));
+// }
 
-setInterval(tick, 1000);
+// setInterval(tick, 1000);
 
 // ReactDOM.render(<h1>Hola Mundo</h1>, document.getElementById("root"))

@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Amaru",
+      "lastname": "Escalante",
+      "title": "Plan de Tesis",
+      "description": "Es mi carro"
+    },
+    {
+      "id": 2,
+      "name": "cdfdfdfdf",
+      "lastname": "fg",
+      "title": "Plan de Tesis",
+      "description": "Es mi carro"
+    }
+  ]
+}
